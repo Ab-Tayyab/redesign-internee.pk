@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+import img from "../../assest/logo.png";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   function toggleMenu() {
@@ -21,12 +22,11 @@ function Navbar() {
     };
   }, [isOpen]);
 
-
   return (
     <div>
       <div className="navbar">
         <div className="navbar-logo">
-          <img src="/img/logo.png" alt="logo"/>
+          <img src={img} alt="logo" />
         </div>
         <div>
           <ul className="navbar-list">
