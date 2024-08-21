@@ -1,5 +1,4 @@
 import React from "react";
-import Typical from "react-typical";
 import "./Home.css";
 import img1 from "../../assest/incubation.jpg";
 import img2 from "../../assest/nic.png";
@@ -11,18 +10,7 @@ function Home() {
       <div className="home-child1">
         <h1>Looking for dream internship?</h1>
         <h1 className="h1-animation">
-          <Typical
-            steps={[
-              "On your desire domain",
-              3000,
-              "Gives hands on experience!",
-              2000,
-              "Get a competative job",
-              1000,
-            ]}
-            loop={Infinity}
-            wrapper="span"
-          />
+          On your desire domain, Gives hands on experience, Get a competative!
         </h1>
         <p>
           Internee.pk kickstart student's tech careers with first internships,
