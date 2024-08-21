@@ -1,3 +1,43 @@
+.course-container {
+  background-color: rgb(243, 242, 242);
+}
+.course-info {
+  max-width: 800px;
+  margin: 40px 0px;
+  margin: auto;
+  padding: 20px;
+}
+.course-info > img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.course-info > h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.course-info > p {
+  text-align: center;
+  font-size: 22px;
+  color: gray;
+}
+
+.course-info > i {
+  font-size: 30px;
+  color: green;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin: 20px 0px;
+}
+
 .slider-container {
   padding: 40px 50px;
   margin: 0 auto;
@@ -31,16 +71,21 @@
 }
 
 .slick-dots li button::before {
-  color: white;
+  color: transparent;
+  background-color: green;
+  border: 2px solid white;
   font-size: 12px;
   opacity: 1;
-  padding: 0.5px;
   border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  content: "";
 }
 
 .slick-dots li.slick-active button::before {
-  color: green;
   background-color: white;
+  border-color: white;
+  color: transparent;
 }
 
 .enroll-btn {

@@ -1,14 +1,14 @@
 import React from "react";
 import Slider from "react-slick";
 import CourseApi from "./CourseApi";
-import './Courses.css'
+import "./Courses.css";
+import img1 from "../../assest/fav.png";
 
 function Courses() {
   var settings = {
     dots: true,
     infinite: false,
     speed: 1000,
-    // centerPadding: '20px',
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
@@ -40,19 +40,33 @@ function Courses() {
     ],
   };
   return (
-    <div className="slider-container">
-      <Slider {...settings}>
-        {CourseApi.map((item) => {
-          return (
-            <div className="course-card">
-              <img src={item.img} className="course-image" />
-              <h1>{item.name}</h1>
-              <p>{item.description}</p>
-              <button className="enroll-btn">Enroll Now</button>
-            </div>
-          );
-        })}
-      </Slider>
+    <div className="course-container">
+      <div className="course-info">
+        <img src={img1} />
+        <h1>Who is internee.PK?</h1>
+        <p>
+          The ultimate platform designed to turbocharge the IT sector in
+          Pakistan! We recognize the immense potential of talented individuals
+          in the country and aim to bridge the gap between them and the thriving
+          IT industry. Internee.pk offers a comprehensive range of virtual
+          internship opportunities exclusively in the IT field.
+        </p>
+        <i class="fa fa-arrow-down"></i>
+      </div>
+      <div className="slider-container">
+        <Slider {...settings}>
+          {CourseApi.map((item) => {
+            return (
+              <div className="course-card">
+                <img src={item.img} className="course-image" />
+                <h1>{item.name}</h1>
+                <p>{item.description}</p>
+                <button className="enroll-btn">Enroll Now</button>
+              </div>
+            );
+          })}
+        </Slider>
+      </div>
     </div>
   );
 }
