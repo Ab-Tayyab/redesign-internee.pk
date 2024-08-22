@@ -28,13 +28,28 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .navbar-list li {
-  list-style-type: none;
+  list-style: none;
   font-size: 18px;
   font-weight: 600;
 }
 
-.navbar-list li:hover,
+.list-style {
+  text-decoration: none;
+}
+
+.navbar-list-item {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(41, 160, 41);
+}
+
+.mobile-list-item{
+  color: white;
+}
+.navbar-list-item:hover,
 .mobile-menu-list li:hover {
   cursor: pointer;
   color: rgb(92, 91, 91);
@@ -68,9 +83,9 @@
 
 .menu-login,
 .menu-portal {
-  width: 100px;
+  max-width: 90%;
   text-align: center;
-  padding: 10px 20px;
+  padding: 15px 0px;
   border-radius: 20px;
 }
 .menu-portal {
@@ -146,8 +161,3 @@
     display: block;
   }
 }
-/* @media (min-width: 1150px) {
-    .mobile-menu {
-      display: none;
-    }
-  } */

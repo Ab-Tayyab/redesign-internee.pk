@@ -10,7 +10,7 @@ import img5 from "../../assest/folder.svg";
 function LMS() {
   return (
     // use same css file which is used in portal
-    <div className="portal-container">
+    <div className="lms-container">
       <div className="portal-child2">
         <h2>Our LMS</h2>
         <h1>Guided Tutorials in Learning Management System</h1>
@@ -20,7 +20,7 @@ function LMS() {
         </p>
         <div className="portal-specs1">
           <div>
-            <img src={img2} />
+            <img src={img2} alt="portal"/>
             <p>
               <span>Sell Courses and Earn </span> Are you an expert in your
               field? Share your knowledge on our LMS. Create and sell courses,
@@ -29,7 +29,7 @@ function LMS() {
             </p>
           </div>
           <div>
-            <img src={img3} />
+            <img src={img3} alt="portal"/>
             <p>
               <span>Certification Complete</span> courses on our LMS and earn
               certifications that validate your expertise. Showcase your
@@ -40,7 +40,7 @@ function LMS() {
         </div>
         <div className="portal-specs2">
           <div>
-            <img src={img4} />
+            <img src={img4} alt="portal"/>
             <p>
               <span>Courses in Urdu</span> Dive into the world of knowledge with
               our courses in Urdu. Breaking language barriers, Our LMS ensures
@@ -49,7 +49,7 @@ function LMS() {
             </p>
           </div>
           <div>
-            <img src={img5} />
+            <img src={img5} alt="portal"/>
             <p>
               <span>Practice Exercises Theory </span> is just the beginning. Our
               LMS goes beyond by offering practical exercises that challenge and
@@ -60,7 +60,7 @@ function LMS() {
         </div>
       </div>
       <div className="portal-child1">
-        <img src={img1} className="lms-img"/>
+        <img src={img1} className="lms-img" alt="LMS"/>
       </div>
     </div>
   );

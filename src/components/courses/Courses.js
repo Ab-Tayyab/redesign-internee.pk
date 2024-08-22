@@ -42,7 +42,7 @@ function Courses() {
   return (
     <div className="course-container">
       <div className="course-info">
-        <img src={img1} />
+        <img src={img1} alt="course"/>
         <h1>Who is internee.PK?</h1>
         <p>
           The ultimate platform designed to turbocharge the IT sector in
@@ -58,7 +58,7 @@ function Courses() {
           {CourseApi.map((item) => {
             return (
               <div className="course-card">
-                <img src={item.img} className="course-image" />
+                <img src={item.img} className="course-image" alt="courses"/>
                 <h1>{item.name}</h1>
                 <p>{item.description}</p>
                 <button className="enroll-btn">Enroll Now</button>

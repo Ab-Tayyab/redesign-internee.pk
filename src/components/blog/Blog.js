@@ -11,7 +11,7 @@ function Blog() {
         {BlogApi.map((item) => {
           return (
             <div className="blog-card">
-              <img src={item.img} />
+              <img src={item.img} alt="blog post"/>
               <h1>{item.heading}</h1>
               <p>{item.detail}</p>
             </div>

@@ -1,0 +1,63 @@
+.contact-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.map-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: 0;
+}
+
+.map-overlay {
+  position: relative;
+  z-index: 1;
+  color: white;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+}
+
+.map-overlay h1 {
+  text-align: center;
+  color: green;
+}
+
+.map-overlay label {
+  font-size: 18px;
+  font-weight: 800;
+  color: green;
+}
+
+.map-overlay input,
+.map-overlay textarea {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  color: green;
+  font-size: 20px;
+  caret-color: green;
+  border-radius: 5px;
+  border: 1px solid rgb(194, 193, 193);
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.map-overlay input:focus,
+.map-overlay textarea:focus {
+  border: 2px solid green;
+  outline: navajowhite;
+}
+
+.map-overlay textarea {
+  height: 150px !important;
+}
