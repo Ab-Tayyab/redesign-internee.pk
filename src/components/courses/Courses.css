@@ -1,5 +1,5 @@
 .course-container {
-  background-color: rgb(243, 242, 242);
+  background-color: #ffffff;
 }
 .course-info {
   max-width: 800px;
@@ -26,12 +26,12 @@
 .course-info > p {
   text-align: center;
   font-size: 22px;
-  color: gray;
+  color: #717275;
 }
 
 .course-info > i {
   font-size: 30px;
-  color: green;
+  color: #43a724;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -41,7 +41,7 @@
 .slider-container {
   padding: 40px 50px;
   margin: 0 auto;
-  background-color: green;
+  background-color: #43a724;
 }
 
 .course-card {
@@ -73,7 +73,7 @@
 
 .slick-dots li button::before {
   color: transparent;
-  background-color: green;
+  background-color: #43a724;
   border: 2px solid white;
   font-size: 12px;
   opacity: 1;
@@ -90,7 +90,7 @@
 }
 
 .enroll-btn {
-  background-color: green;
+  background-color: #43a724;
   color: white;
   border-radius: 20px;
   width: 150px;
@@ -101,6 +101,6 @@
 
 .enroll-btn:hover {
   cursor: pointer;
-  background-color: rgb(38, 186, 38);
+  background-color: #63ba49;
   transition: ease 0.5s;
 }

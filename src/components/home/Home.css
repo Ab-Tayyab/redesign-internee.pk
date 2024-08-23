@@ -5,6 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0px;
+    background-color: #ffffff;
 }
 
 .home-child1, .home-child2{
@@ -19,12 +20,12 @@
 
 .h1-animation{
     font-size: 35px !important;
-    color: green;
+    color: #43a724;
 }
 
 .home-child1 p{
     font-size: 22px;
-    color: rgb(69, 69, 69);
+    color: #717275;
     padding: 20px 0px;
 }
 .child1-image-container{
@@ -48,7 +49,7 @@
 }
 
 .home-btn1{
-    background-color: green;
+    background-color: #43a724;
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -57,23 +58,25 @@
 
 .home-btn1:hover{
     cursor: pointer;
-    background-color: rgb(31, 163, 31);
+    background-color: #63ba49;
     transition: ease 0.5s;
+  cursor:not-allowed;
 }
 
 .home-btn2{
-    color: green;
+    color: #43a724;
     font-size: 20px;
     font-weight: bold;
-    border: 1px solid green;
+    border: 1px solid #43a724;
     background-color: transparent;
 }
 
 .home-btn2:hover{
     cursor: pointer;
-    color: rgb(31, 163, 31);
-    border-color: rgb(31, 163, 31);
+    color: #63ba49;
+    border-color: #63ba49;
     transition: ease 0.5s;
+  cursor:not-allowed;
 }
 
 .home-child1 img{

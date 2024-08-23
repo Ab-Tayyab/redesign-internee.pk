@@ -4,38 +4,38 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  background-color: green;
+  background-color: #43a724;
   padding: 40px 0px;
 }
 
-.all-course-card{
-    width: 300px;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: white;
-    margin-bottom: 20px;
+.all-course-card {
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
-.all-course-img{
-    width: 100%;
+.all-course-img {
+  width: 100%;
 }
 
-.all-course-card h1{
-    font-size: 24px;
+.all-course-card h1 {
+  font-size: 24px;
 }
 
-.all-course-card button{
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    margin-top: 10px;
-    float: right;
-    border-radius: 10px;
+.all-course-card button {
+  background-color: #43a724;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  float: right;
+  border-radius: 10px;
 }
 
-.all-course-card button:hover{
-    background-color: rgb(58, 197, 58);
-    cursor: pointer;
-    transition: ease 0.5s;
+.all-course-card button:hover {
+  background-color: #63ba49;
+  cursor: pointer;
+  transition: ease 0.5s;
 }

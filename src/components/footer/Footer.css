@@ -2,10 +2,9 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
   flex-wrap: wrap;
-  background-color: rgb(243, 242, 242);
   padding: 20px 0px;
+  background-color: #f6f5f5;
 }
 
 .footer-container div {
@@ -17,8 +16,8 @@
   width: 100%;
 }
 
-.footer-img img:hover{
-    cursor: pointer;
+.footer-img img:hover {
+  cursor: pointer;
 }
 
 .footer-container h1 {
@@ -29,32 +28,33 @@
 
 .footer-container h5 {
   font-size: 16px;
-  color: rgb(69, 69, 69);
+  color: #43a724;
   padding: 5px 0px;
 }
 
-.footer-container h5:hover{
-    cursor: pointer;
-    color: rgb(31, 163, 31);
-    transition: ease 0.5s;
+.footer-container h5:hover {
+  cursor: pointer;
+  color: #63ba49;
+  transition: ease 0.5s;
+  cursor: not-allowed;
 }
 
-.footer-icons{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 0px 10px 0px;
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 10px 0px;
 }
 
-.footer-icons i{
-    font-size: 24px;
-    background-color: green;
-    color: white;
-    border-radius: 50%;
-    padding: 10px;
+.footer-icons i {
+  font-size: 24px;
+  background-color: #43a724;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
 }
 
-.footer-container i:hover{
-    cursor: pointer;
-    background-color: rgb(31, 163, 31);
-    transition: ease 0.5s;
+.footer-container i:hover {
+  cursor: pointer;
+  background-color: #63ba49;
+  transition: ease 0.5s;
 }
