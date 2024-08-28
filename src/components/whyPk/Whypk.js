@@ -1,5 +1,6 @@
 import React from "react";
 import "./Whypk.css";
+import "../animations/Animations.css"
 import img1 from "../../assest/programing.jpg";
 import img2 from "../../assest/icons.svg";
 
@@ -29,7 +30,7 @@ const Whypk = () => {
           ))}
         </div>
         <div className="whypk-child2">
-          <img src={img1} alt="Description" />
+          <img src={img1} alt="Description" className="img-animation" />
         </div>
       </div>
     </div>

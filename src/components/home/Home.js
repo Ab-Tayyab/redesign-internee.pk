@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import "../animations/Animations.css"
 import img1 from "../../assest/incubation.jpg";
 import img2 from "../../assest/nic.png";
 import img3 from "../../assest/hero.webp";
@@ -27,7 +28,7 @@ function Home() {
         </div>
       </div>
       <div className="home-child2">
-        <img src={img3} alt="hero" />
+        <img src={img3} alt="hero" className="img-animation"/>
       </div>
     </div>
   );

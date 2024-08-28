@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portal.css";
+import '../animations/Animations.css'
 import img1 from "../../assest/portal.webp";
 import img2 from "../../assest/presentation.svg";
 import img3 from "../../assest/account.svg";
@@ -10,7 +11,7 @@ function Portal() {
   return (
     <div className="portal-container ">
       <div className="portal-child1">
-        <img src={img1} alt="portal"/>
+        <img src={img1} alt="portal" className="img-animation"/>
       </div>
       <div className="portal-child2">
         <h2>Our own task portal</h2>

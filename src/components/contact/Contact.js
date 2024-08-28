@@ -30,7 +30,7 @@ function Contact() {
 
     if (!formData.phone) newError.phone = "Enter Phone Number";
 
-    if (!formData.message) newError.phone = "Enter Message";
+    if (!formData.message) newError.message = "Enter Message";
 
     return newError;
   };

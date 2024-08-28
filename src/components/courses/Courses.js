@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import CourseApi from "./CourseApi";
 import "./Courses.css";
+import "../animations/Animations.css"
 import img1 from "../../assest/fav.png";
 
 function Courses() {
@@ -51,7 +52,7 @@ function Courses() {
           IT industry. Internee.pk offers a comprehensive range of virtual
           internship opportunities exclusively in the IT field.
         </p>
-        <i class="fa fa-arrow-down"></i>
+        <i className="fa fa-arrow-down img-animation"></i>
       </div>
       <div className="slider-container">
         <Slider {...settings}>
